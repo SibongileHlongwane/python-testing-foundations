@@ -15,7 +15,17 @@ app/
 tests/
     Automated test cases
 
+## Features
+- Unit testing using pytest
+- Parametrized test cases
+- Reusable fixtures
+- HTML test reporting
+
 ## How to Run Tests
 
 pip install -r requirements.txt
-ptyhon -m pytest
+python -m pytest
+
+## Generate Test Report
+
+python -m pytest --html=report.html
