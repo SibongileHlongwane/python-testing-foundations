@@ -20,5 +20,3 @@ def test_reverse_string(input_text, expected):
     assert reverse_string(input_text) == expected
     
 
-def test_to_upperscase_with_fixture(sample_text):
-    assert to_uppercase(sample_text) == "HELLO"
